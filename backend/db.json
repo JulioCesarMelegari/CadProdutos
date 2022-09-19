@@ -1,0 +1,34 @@
+{
+    "products":[
+        {
+        "id": 1,
+        "name": "Cerveja Skol 350 ml",
+        "price": 3.50
+        },
+        {
+        "id": 1,
+        "name": "Cerveja Skol 350 ml",
+        "price": 3.50
+        },
+        {
+        "id": 1,
+        "name": "Cerveja Heineken 350 ml",
+        "price": 5.50
+        },
+        {
+        "id": 1,
+        "name": "Cerveja Brhama 350 ml",
+        "price": 3.50
+        },
+        {
+        "id": 1,
+        "name": "Cerveja Itaipava 350 ml",
+        "price": 3.00
+        },
+        {
+        "id": 1,
+        "name": "Cerveja Budweiser 350 ml",
+        "price": 4.50
+        }
+    ]
+}
