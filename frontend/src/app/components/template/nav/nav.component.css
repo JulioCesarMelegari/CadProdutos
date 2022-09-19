@@ -1,0 +1,18 @@
+.sidenav{
+    background-color: #031ba5;
+    width: 200px;
+}
+
+.sidenav a{
+    color: #fff;
+}
+
+/*espaçamento entre icone e legenda*/
+.sidenav i{
+    padding-right: 10px;
+}
+
+.content{
+    padding: 16px;
+    background-color: #fff;
+}
