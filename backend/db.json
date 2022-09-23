@@ -1,34 +1,44 @@
 {
-    "products":[
-        {
-        "id": 1,
-        "name": "Cerveja Skol 350 ml",
-        "price": 3.50
-        },
-        {
-        "id": 1,
-        "name": "Cerveja Skol 350 ml",
-        "price": 3.50
-        },
-        {
-        "id": 1,
-        "name": "Cerveja Heineken 350 ml",
-        "price": 5.50
-        },
-        {
-        "id": 1,
-        "name": "Cerveja Brhama 350 ml",
-        "price": 3.50
-        },
-        {
-        "id": 1,
-        "name": "Cerveja Itaipava 350 ml",
-        "price": 3.00
-        },
-        {
-        "id": 1,
-        "name": "Cerveja Budweiser 350 ml",
-        "price": 4.50
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Cerveja Skol 350 ml",
+      "price": 3.5
+    },
+    {
+      "id": 1,
+      "name": "Cerveja Skol 350 ml",
+      "price": 3.5
+    },
+    {
+      "id": 1,
+      "name": "Cerveja Heineken 350 ml",
+      "price": 5.5
+    },
+    {
+      "id": 1,
+      "name": "Cerveja Brhama 350 ml",
+      "price": 3.5
+    },
+    {
+      "id": 1,
+      "name": "Cerveja Itaipava 350 ml",
+      "price": 3
+    },
+    {
+      "id": 1,
+      "name": "Cerveja Budweiser 350 ml",
+      "price": 4.5
+    },
+    {
+      "name": "Cerveja Kaiser 350 ml",
+      "price": 2.9,
+      "id": 2
+    },
+    {
+      "name": "Cerveja Kaiser 350 ml",
+      "price": 2.9,
+      "id": 3
+    }
+  ]
 }
