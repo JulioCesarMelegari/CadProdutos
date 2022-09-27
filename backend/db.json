@@ -6,39 +6,94 @@
       "price": 3.5
     },
     {
-      "id": 1,
-      "name": "Cerveja Skol 350 ml",
-      "price": 3.5
-    },
-    {
-      "id": 1,
+      "id": 2,
       "name": "Cerveja Heineken 350 ml",
       "price": 5.5
     },
     {
-      "id": 1,
+      "id": 3,
       "name": "Cerveja Brhama 350 ml",
       "price": 3.5
     },
     {
-      "id": 1,
+      "id": 4,
       "name": "Cerveja Itaipava 350 ml",
       "price": 3
     },
     {
-      "id": 1,
+      "id": 5,
       "name": "Cerveja Budweiser 350 ml",
       "price": 4.5
     },
     {
       "name": "Cerveja Kaiser 350 ml",
       "price": 2.9,
-      "id": 2
+      "id": 6
     },
     {
       "name": "Cerveja Kaiser 350 ml",
       "price": 2.9,
-      "id": 3
+      "id": 7
+    },
+    {
+      "name": "cerveja Império Lager 350 ml",
+      "price": "3.50",
+      "id": 8
+    },
+    {
+      "name": "cerveja Eisenbahn pilsen 350 ml",
+      "price": "3.50",
+      "id": 9
+    },
+    {
+      "name": "cerveja Original 350 ml",
+      "price": "4.50",
+      "id": 10
+    },
+    {
+      "name": "cerveja Antarctiva Pilsen 350 ml",
+      "price": "3.50",
+      "id": 11
+    },
+    {
+      "name": "cerveja Devassa 350 ml",
+      "price": "2.99",
+      "id": 12
+    },
+    {
+      "name": "cerveja Coruja Lager 350 ml",
+      "price": "5.50",
+      "id": 13
+    },
+    {
+      "name": "cerveja Bohemia 350 ml",
+      "price": "4.99",
+      "id": 14
+    },
+    {
+      "name": "cerveja Caracú 350 ml",
+      "price": "5.50",
+      "id": 15
+    },
+    {
+      "name": "cerveja Eisenbahn American Ipa 350 ml",
+      "price": "7.50",
+      "id": 16
+    },
+    {
+      "name": "cerveja Amstel 350 ml",
+      "price": "2.99",
+      "id": 17
+    },
+    {
+      "name": "cerveja Kirin Ishiban Pilsen 350 ml",
+      "price": "7.50",
+      "id": 18
+    },
+    {
+      "name": "Estrella Galícia Lager 350 ml",
+      "price": "5.50",
+      "id": 19
     }
   ]
 }
