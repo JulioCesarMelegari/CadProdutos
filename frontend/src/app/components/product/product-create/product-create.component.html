@@ -6,11 +6,15 @@
                 [(ngModel)]="product.name" name="name">
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Preço (R$)"
-                [(ngModel)]="product.price" name="price">
+            <input 
+                matInput placeholder="Preço (R$)"
+                name="valor"
+                [(ngModel)]="product.price" 
+                ConverteNumeros>
         </mat-form-field>
+        
     </form>
-
+        
     <button mat-raised-button (click)="createProduct()" color="primary">
         Salvar
     </button>
@@ -18,6 +22,7 @@
     <button mat-raised-button (click)="cancel()">
         Cancelar
     </button>
+
 </mat-card>
 
 

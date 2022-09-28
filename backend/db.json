@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Cerveja Skol 350 ml",
-      "price": 3.5
+      "price": "4.65"
     },
     {
       "id": 2,
@@ -23,17 +23,12 @@
     {
       "id": 5,
       "name": "Cerveja Budweiser 350 ml",
-      "price": 4.5
+      "price": "5.50"
     },
     {
       "name": "Cerveja Kaiser 350 ml",
       "price": 2.9,
       "id": 6
-    },
-    {
-      "name": "Cerveja Kaiser 350 ml",
-      "price": 2.9,
-      "id": 7
     },
     {
       "name": "cerveja Império Lager 350 ml",
@@ -91,9 +86,24 @@
       "id": 18
     },
     {
-      "name": "Estrella Galícia Lager 350 ml",
+      "name": "cerveja Estrella Galícia Lager 350 ml",
       "price": "5.50",
       "id": 19
+    },
+    {
+      "name": "cerveja Brahma Malzbier 350 ml",
+      "price": "5.50",
+      "id": 20
+    },
+    {
+      "name": "cerveja Leopoldina Ipa 600 ml",
+      "price": "24.90",
+      "id": 21
+    },
+    {
+      "name": "cerveja Glacial 350 ml",
+      "price": "2.90",
+      "id": 22
     }
   ]
 }
