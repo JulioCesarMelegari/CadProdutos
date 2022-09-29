@@ -105,5 +105,71 @@
       "price": "2.90",
       "id": 22
     }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "Rafael Candido",
+      "cpf": "223.455.455-00",
+      "dataNascimento": "10/02/1998",
+      "endereco": "Rua das Palmeiras, 102",
+      "cep": "87005-190"
+    },
+    {
+      "id": 2,
+      "name": "Abel Amaral",
+      "cpf": "553.455.487-00",
+      "dataNascimento": "15/02/1990",
+      "endereco": "Rua dos Cravos, 12",
+      "cep": "87015-190"
+    },
+    {
+      "name": "Julio Melegari",
+      "cpf": "222.333.666-88",
+      "dataNascimento": "10/02/1982",
+      "endereco": "Rua Botafogo, 1081",
+      "cep": "87055-190",
+      "id": 3
+    },
+    {
+      "name": "Gabriel Almeida",
+      "cpf": "858.898.666-66",
+      "dataNascimento": "10/05/1988",
+      "endereco": "Av. Nobrega, 105",
+      "cep": "88006-150",
+      "id": 4
+    },
+    {
+      "name": "Gabriel Medina",
+      "cpf": "686.968.698-56",
+      "dataNascimento": "30/04/2000",
+      "endereco": "Rua das Chalanas, 685",
+      "cep": "22566-965",
+      "id": 5
+    },
+    {
+      "name": "Carlos Aparecido Ferreira",
+      "cpf": "726.896.842-69",
+      "dataNascimento": "16/19/1962",
+      "endereco": "Rua dos Aliados, 768",
+      "cep": "53689-655",
+      "id": 6
+    },
+    {
+      "name": "Roberto Aparecido",
+      "cpf": "365.669.656-66",
+      "dataNascimento": "14/12/2003",
+      "endereco": "Rua Carlos Chagas, 899",
+      "cep": "22363-699",
+      "id": 7
+    },
+    {
+      "name": "Daniel Farias",
+      "cpf": "458.656.965-63",
+      "dataNascimento": "03/05/1965",
+      "endereco": "Rua Siriema 125",
+      "cep": "45854-585",
+      "id": 8
+    }
   ]
 }

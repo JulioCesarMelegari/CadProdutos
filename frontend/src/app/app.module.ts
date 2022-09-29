@@ -29,6 +29,16 @@ import { registerLocaleData } from '@angular/common';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 import { ConverteNumerosDirective } from './components/directives/converte-numeros.directive';
+import { ClientComponent } from './views/client/client.component';
+import { ClientCreateComponent } from './components/client/client-create/client-create.component';
+import { ClientDeleteComponent } from './components/client/client-delete/client-delete.component';
+import { ClientUpdateComponent } from './components/client/client-update/client-update.component';
+import { NgxMaskModule } from 'ngx-mask';
+import { ClientReadComponent } from './components/client/client-read/client-read.component';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import { TableOverviewExampleComponent } from './components/client/table-overview-example/table-overview-example.component';
+import { OrderModule } from 'ngx-order-pipe';
 
 registerLocaleData(localePt);
 
@@ -44,7 +54,13 @@ registerLocaleData(localePt);
     ProductReadComponent,
     ProductUpdateComponent,
     ProductDeleteComponent,
-    ConverteNumerosDirective
+    ConverteNumerosDirective,
+    ClientComponent,
+    ClientCreateComponent,
+    ClientDeleteComponent,
+    ClientUpdateComponent,
+    ClientReadComponent,
+    TableOverviewExampleComponent
   ],
   imports: [
     BrowserModule,
@@ -60,7 +76,13 @@ registerLocaleData(localePt);
     FormsModule,
     MatFormFieldModule,
     MatInputModule,
-    MatTableModule
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
+    OrderModule,
+    NgxMaskModule.forRoot({
+      dropSpecialCharacters:false //ao salvar, vai manter a mascara
+    }),
   ],
   providers: [{
     provide:LOCALE_ID,

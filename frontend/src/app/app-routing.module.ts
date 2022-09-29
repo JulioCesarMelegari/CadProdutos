@@ -1,3 +1,4 @@
+import { ClientComponent } from './views';
 
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -5,6 +6,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './views/home';
 import { ProductComponent } from './views/product';
 import { ProductCreateComponent, ProductDeleteComponent,ProductUpdateComponent } from './components';
+import { ClientCreateComponent, ClientDeleteComponent, ClientUpdateComponent } from './components';
 
 
 const routes: Routes = [
@@ -27,7 +29,23 @@ const routes: Routes = [
   {
     path:"products/delete/:id",
     component: ProductDeleteComponent
-  }
+  },
+  {
+    path:"clients",
+    component: ClientComponent
+  },
+  {
+    path:"clients/create",
+    component: ClientCreateComponent
+  },
+  {
+    path:"clients/update/:id",
+    component: ClientUpdateComponent
+  },
+  {
+    path:"clients/delete/:id",
+    component: ClientDeleteComponent
+  },
 ];
 
 @NgModule({
